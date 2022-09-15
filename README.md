@@ -28,15 +28,23 @@
 
 This is a simple turn based RPG game made with Phaser.js. The player spawns on the map, and can walk around the map, but not on the water, through rocks, into the pit, or outside the coliseum. They may walk along the rope bridge to cross the river. When the player runs into a slime enemy, the battle starts. The player's party is has two characters, the Monarch and the Noble. The player takes their character turns first, in order, and then the monsters attack. If the player wins, they are returned to the overworld. If they lose, they get a game over screen.
 
+## Controls
+
+* move - arrow keys
+* confirm - space
+* back - shift
+* You can only attack for now, but there are two options.
+
 ## Setup/Installation Requirements
 
 ### Website
 
-* TBA
+* [https://doublespoiler.github.io/rpg-team-week/](https://doublespoiler.github.io/rpg-team-week/)
 
 ### Requirements
 
 * Node.js
+* Not Edge or IE
 
 ### Installation
 
@@ -56,6 +64,7 @@ This is a simple turn based RPG game made with Phaser.js. The player spawns on t
 ## Known Bugs
 
 * screen shakes after battle, not before
+* some sprites are not cut properly
 
 ## License
 
