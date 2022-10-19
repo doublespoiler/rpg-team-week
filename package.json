@@ -8,7 +8,7 @@
     "start": "webpack-dev-server --config webpack/base.js --open",
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
-    "host": "build start"
+    "host": "install start"
   },
   "repository": {
     "type": "git",
